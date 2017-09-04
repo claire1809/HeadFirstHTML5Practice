@@ -1,0 +1,28 @@
+#container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#musicName {
+    width: 415px;
+}
+
+#musicList {
+    list-style-type: none;
+    border: 2px solid #4a94f9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+#musicList>li {
+    border-bottom: 2px solid #4a94f9;
+    padding: 10px;
+}
+
+#musicList>li:last-child {
+    border-bottom: none;
+}
+
